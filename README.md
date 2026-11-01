@@ -109,7 +109,5 @@ Testes manuais: ver pasta `evidencias/` (Postman).
 
 ## Uso de IA
 
-Utilizei IA (Claude, da Anthropic) como apoio nas seguintes tarefas: estruturar o projeto em camadas, escrever os testes com Jest/Supertest e rascunhar este README. Executei os testes (`npm test`), li o código e os endpoints foram testados manualmente no Postman (ver `evidencias/`).
+Utilizei IA como apoio nas seguintes tarefas: estruturar  e rascunhar este README. Executei os testes (`npm test`), li o código e os endpoints foram testados manualmente no Postman (ver `evidencias/`).
 
-- **Sugestão aceita:** separar o acesso a dados em `repositories/`. Aceitei porque isola o armazenamento em memória do restante e permitiria trocar por um banco sem alterar service e controller.
-- **Sugestão aceita e conferida:** transição de status inválida responde 400 (e não 409). Mantive 400 porque o enunciado define 400 para "dados inválidos" e a mensagem lista as transições permitidas.
